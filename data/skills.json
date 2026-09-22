@@ -1,0 +1,488 @@
+[
+  {
+    "id": "docx",
+    "name": "docx",
+    "description": "Create, edit, and analyze Word documents with support for tracked changes, comments, formatting preservation, and text extraction.",
+    "category": "documents",
+    "url": "https://github.com/anthropics/skills/blob/main/skills/docx/SKILL.md",
+    "tags": [
+      "word",
+      "office",
+      "official"
+    ]
+  },
+  {
+    "id": "pdf",
+    "name": "pdf",
+    "description": "PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging and splitting documents, and handling forms.",
+    "category": "nope",
+    "url": "https://github.com/anthropics/skills/blob/main/skills/pdf/SKILL.md",
+    "tags": [
+      "forms",
+      "extraction",
+      "official"
+    ]
+  },
+  {
+    "id": "pptx",
+    "name": "pptx",
+    "description": "Create, edit, and analyze PowerPoint presentations with support for layouts, templates, charts, and automated slide generation.",
+    "category": "documents",
+    "url": "https://github.com/anthropics/skills/blob/main/skills/pptx/SKILL.md",
+    "tags": [
+      "powerpoint",
+      "slides",
+      "official"
+    ]
+  },
+  {
+    "id": "pptx",
+    "name": "xlsx",
+    "description": "Create, edit, and analyze Excel spreadsheets with support for formulas, formatting, data analysis, and visualization.",
+    "category": "data",
+    "url": "https://github.com/anthropics/skills/blob/main/skills/xlsx/SKILL.md",
+    "tags": [
+      "excel",
+      "spreadsheets",
+      "official"
+    ]
+  },
+  {
+    "id": "doc-coauthoring",
+    "name": "doc-coauthoring",
+    "description": "Structured workflow for co-authoring documentation, proposals, technical specs and decision docs, section by section.",
+    "category": "documents",
+    "url": "https://github.com/anthropics/skills/blob/main/skills/doc-coauthoring/SKILL.md",
+    "tags": [
+      "writing",
+      "specs",
+      "official"
+    ]
+  },
+  {
+    "id": "algorithmic-art",
+    "name": "algorithmic-art",
+    "description": "Create generative art using p5.js with seeded randomness, flow fields, and particle systems.",
+    "category": "design",
+    "url": "https://github.com/anthropics/skills/blob/main/skills/algorithmic-art/SKILL.md",
+    "tags": [
+      "p5js",
+      "generative",
+      "official"
+    ]
+  },
+  {
+    "id": "canvas-design",
+    "name": "canvas-design",
+    "description": "Design visual art in .png and .pdf formats using established design philosophies.",
+    "category": "design",
+    "url": "https://github.com/anthropics/skills/blob/main/skills/canvas-design/SKILL.md",
+    "tags": [
+      "layout",
+      "graphics",
+      "official"
+    ]
+  },
+  {
+    "id": "slack-gif-creator",
+    "name": "slack-gif-creator",
+    "description": "Create animated GIFs optimized for Slack's size constraints.",
+    "category": "design",
+    "url": "https://github.com/anthropics/skills/blob/main/skills/slack-gif-creator/SKILL.md",
+    "tags": [
+      "slack",
+      "animation",
+      "official"
+    ]
+  },
+  {
+    "id": "frontend-design",
+    "name": "frontend-design",
+    "description": "Instructs Claude to avoid generic 'AI slop' aesthetics and make bold design decisions. Works especially well for React and Tailwind.",
+    "category": "design",
+    "url": "https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md",
+    "tags": [
+      "react",
+      "tailwind",
+      "ui",
+      "official"
+    ]
+  },
+  {
+    "id": "theme-factory",
+    "name": "theme-factory",
+    "description": "Toolkit for styling artifacts with a theme. Ten preset color and font themes for slides, docs, reports and landing pages, or generate a new one on the fly.",
+    "category": "design",
+    "url": "https://github.com/anthropics/skills/blob/main/skills/theme-factory/SKILL.md",
+    "tags": [
+      "themes",
+      "typography",
+      "official"
+    ]
+  },
+  {
+    "id": "brand-guidelines",
+    "name": "brand-guidelines",
+    "description": "Apply Anthropic's official brand colors and typography to artifacts.",
+    "category": "design",
+    "url": "https://github.com/anthropics/skills/blob/main/skills/brand-guidelines/SKILL.md",
+    "tags": [
+      "branding",
+      "colors",
+      "official"
+    ]
+  },
+  {
+    "id": "claude-api",
+    "name": "claude-api",
+    "description": "Up-to-date Claude API reference — model IDs, pricing, streaming, tool use, caching, token counting and model migration across eight languages. Bundled with Claude Code.",
+    "category": "development",
+    "url": "https://github.com/anthropics/skills/blob/main/skills/claude-api/SKILL.md",
+    "tags": [
+      "api",
+      "sdk",
+      "llm",
+      "official"
+    ]
+  },
+  {
+    "id": "mcp-builder",
+    "name": "mcp-builder",
+    "description": "Guide for creating high-quality MCP servers to integrate external APIs and services.",
+    "category": "development",
+    "url": "https://github.com/anthropics/skills/blob/main/skills/mcp-builder/SKILL.md",
+    "tags": [
+      "mcp",
+      "servers",
+      "integration",
+      "official"
+    ]
+  },
+  {
+    "id": "web-artifacts-builder",
+    "name": "web-artifacts-builder",
+    "description": "Build complex claude.ai HTML artifacts using React, Tailwind CSS, and shadcn/ui components.",
+    "category": "development",
+    "url": "https://github.com/anthropics/skills/blob/main/skills/web-artifacts-builder/SKILL.md",
+    "tags": [
+      "react",
+      "artifacts",
+      "shadcn",
+      "official"
+    ]
+  },
+  {
+    "id": "webapp-testing",
+    "name": "webapp-testing",
+    "description": "Test local web applications using Playwright for UI verification and debugging.",
+    "category": "testing",
+    "url": "https://github.com/anthropics/skills/blob/main/skills/webapp-testing/SKILL.md",
+    "tags": [
+      "playwright",
+      "e2e",
+      "browser",
+      "official"
+    ]
+  },
+  {
+    "id": "internal-comms",
+    "name": "internal-comms",
+    "description": "Write internal communications like status reports, newsletters, and FAQs.",
+    "category": "productivity",
+    "url": "https://github.com/anthropics/skills/blob/main/skills/internal-comms/SKILL.md",
+    "tags": [
+      "writing",
+      "comms",
+      "official"
+    ]
+  },
+  {
+    "id": "discernment-nudge",
+    "name": "discernment-nudge",
+    "description": "Appends two or three specific follow-up questions after a substantive answer, so you can check key facts, probe assumptions, and notice missing context.",
+    "category": "productivity",
+    "url": "https://github.com/anthropics/skills/blob/main/skills/discernment-nudge/SKILL.md",
+    "tags": [
+      "critical-thinking",
+      "review",
+      "official"
+    ]
+  },
+  {
+    "id": "academy-guide",
+    "name": "academy-guide",
+    "description": "Recommends matching courses, tutorials and use cases from Claude Academy when someone asks how to use Claude or a Claude product.",
+    "category": "productivity",
+    "url": "https://github.com/anthropics/skills/blob/main/skills/academy-guide/SKILL.md",
+    "tags": [
+      "learning",
+      "onboarding",
+      "official"
+    ]
+  },
+  {
+    "id": "skill-creator",
+    "name": "skill-creator",
+    "description": "Interactive skill creation tool that guides you through building new skills with a question-and-answer flow.",
+    "category": "meta",
+    "url": "https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md",
+    "tags": [
+      "authoring",
+      "scaffolding",
+      "official"
+    ]
+  },
+  {
+    "id": "superpowers",
+    "name": "superpowers",
+    "description": "Core skills library for Claude Code with 20+ battle-tested skills including TDD, debugging, and collaboration patterns.",
+    "category": "meta",
+    "url": "https://github.com/obra/superpowers",
+    "tags": [
+      "collection",
+      "tdd",
+      "debugging"
+    ]
+  },
+  {
+    "id": "superpowers-lab",
+    "name": "superpowers-lab",
+    "description": "Experimental skills for Claude Code Superpowers, using newer techniques still being refined.",
+    "category": "meta",
+    "url": "https://github.com/obra/superpowers-lab",
+    "tags": [
+      "collection",
+      "experimental"
+    ]
+  },
+  {
+    "id": "get-shit-done",
+    "name": "get-shit-done",
+    "description": "Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code.",
+    "category": "productivity",
+    "url": "https://github.com/gsd-build/get-shit-done",
+    "tags": [
+      "workflow",
+      "spec-driven",
+      "prompting"
+    ]
+  },
+  {
+    "id": "skill-seekers",
+    "name": "Skill Seekers",
+    "description": "Convert documentation websites into Claude Skills automatically.",
+    "category": "meta",
+    "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
+    "tags": [
+      "authoring",
+      "docs",
+      "scraping"
+    ]
+  },
+  {
+    "id": "loki-mode",
+    "name": "loki-mode",
+    "description": "Multi-agent autonomous startup system — orchestrates 37 agents across 6 swarms to build, deploy and operate a complete startup from PRD to revenue.",
+    "category": "meta",
+    "url": "https://github.com/asklokesh/claudeskill-loki-mode",
+    "tags": [
+      "multi-agent",
+      "orchestration",
+      "autonomous"
+    ]
+  },
+  {
+    "id": "cc-thinking-skills",
+    "name": "cc-thinking-skills",
+    "description": "Collection of installable thinking-framework skills with a meta-router, notable for publishing a replication-gated evaluation instead of unsupported quality claims.",
+    "category": "productivity",
+    "url": "https://github.com/tjboudreaux/cc-thinking-skills",
+    "tags": [
+      "reasoning",
+      "frameworks",
+      "collection"
+    ]
+  },
+  {
+    "id": "expo-skills",
+    "name": "Expo Skills",
+    "description": "Official skills from the Expo team for developing Expo and React Native apps.",
+    "category": "development",
+    "url": "https://github.com/expo/skills",
+    "tags": [
+      "expo",
+      "react-native",
+      "mobile"
+    ]
+  },
+  {
+    "id": "shadcn-ui-skills",
+    "name": "shadcn/ui",
+    "description": "Gives Claude Code context on shadcn/ui components, plus pattern enforcement when building with them.",
+    "category": "development",
+    "url": "https://ui.shadcn.com/docs/skills",
+    "tags": [
+      "shadcn",
+      "components",
+      "ui"
+    ]
+  },
+  {
+    "id": "web-asset-generator",
+    "name": "web-asset-generator",
+    "description": "Generates web assets such as favicons, app icons, and social media images.",
+    "category": "design",
+    "url": "https://github.com/alonw0/web-asset-generator",
+    "tags": [
+      "favicons",
+      "icons",
+      "og-images"
+    ]
+  },
+  {
+    "id": "frontend-slides",
+    "name": "frontend-slides",
+    "description": "Create animation-rich HTML presentations, from scratch or by converting PowerPoint files.",
+    "category": "design",
+    "url": "https://github.com/zarazhangrui/frontend-slides",
+    "tags": [
+      "slides",
+      "html",
+      "animation"
+    ]
+  },
+  {
+    "id": "claude-d3js-skill",
+    "name": "claude-d3js-skill",
+    "description": "Build data visualizations in d3.js.",
+    "category": "data",
+    "url": "https://github.com/chrisvoncsefalvay/claude-d3js-skill",
+    "tags": [
+      "d3",
+      "charts",
+      "dataviz"
+    ]
+  },
+  {
+    "id": "playwright-skill",
+    "name": "playwright-skill",
+    "description": "General-purpose browser automation using Playwright.",
+    "category": "testing",
+    "url": "https://github.com/lackeyjb/playwright-skill",
+    "tags": [
+      "playwright",
+      "automation",
+      "browser"
+    ]
+  },
+  {
+    "id": "ios-simulator-skill",
+    "name": "ios-simulator-skill",
+    "description": "iOS app building, navigation, and testing through simulator automation.",
+    "category": "testing",
+    "url": "https://github.com/conorluddy/ios-simulator-skill",
+    "tags": [
+      "ios",
+      "simulator",
+      "mobile"
+    ]
+  },
+  {
+    "id": "terraform-skill",
+    "name": "terraform-skill",
+    "description": "Teaches safer Terraform and OpenTofu through a diagnose-first workflow, failure-mode routing, and a version-guard table covering modules, remote state, CI/CD and security scanning.",
+    "category": "devops",
+    "url": "https://github.com/antonbabenko/terraform-skill",
+    "tags": [
+      "terraform",
+      "opentofu",
+      "iac",
+      "aws"
+    ]
+  },
+  {
+    "id": "otelcol-doctor",
+    "name": "otelcol-doctor",
+    "description": "Encodes OpenTelemetry Collector configuration footguns as an authoring workflow, with validation loops that actually run otelcol validate.",
+    "category": "devops",
+    "url": "https://github.com/s3onghyun/otelcol-doctor",
+    "tags": [
+      "opentelemetry",
+      "observability",
+      "config"
+    ]
+  },
+  {
+    "id": "trailofbits-skills",
+    "name": "Trail of Bits Security Skills",
+    "description": "Security skills for static analysis with CodeQL and Semgrep, variant analysis, code auditing, and vulnerability detection.",
+    "category": "security",
+    "url": "https://github.com/trailofbits/skills",
+    "tags": [
+      "codeql",
+      "semgrep",
+      "audit",
+      "collection"
+    ]
+  },
+  {
+    "id": "ffuf-web-fuzzing",
+    "name": "ffuf-web-fuzzing",
+    "description": "Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis.",
+    "category": "security",
+    "url": "https://github.com/jthack/ffuf_claude_skill",
+    "tags": [
+      "ffuf",
+      "fuzzing",
+      "pentest"
+    ]
+  },
+  {
+    "id": "agent-guard",
+    "name": "Agent Guard",
+    "description": "Real-time secret-leak guardrails for AI coding agents, Git hooks, and CI pipelines.",
+    "category": "security",
+    "url": "https://github.com/JeongJaeSoon/agent-guard",
+    "tags": [
+      "secrets",
+      "ci",
+      "guardrails"
+    ]
+  },
+  {
+    "id": "skillspector",
+    "name": "SkillSpector",
+    "description": "Security scanner for agent skills, detecting vulnerabilities, malicious patterns, and supply-chain risks before you install one.",
+    "category": "security",
+    "url": "https://github.com/NVIDIA/SkillSpector",
+    "tags": [
+      "scanner",
+      "supply-chain",
+      "audit"
+    ]
+  },
+  {
+    "id": "claude-scientific-skills",
+    "name": "claude-scientific-skills",
+    "description": "Collection of ready-to-use scientific skills, including working with specialized scientific libraries and databases.",
+    "category": "research",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "tags": [
+      "science",
+      "bioinformatics",
+      "collection"
+    ]
+  },
+  {
+    "id": "ai-research-skills",
+    "name": "AI Research Skills",
+    "description": "Fifteen skills mapped to eight research-workflow stages, from literature review through gap analysis, design and drafting to reviewer response, each emitting a deliverable the next stage consumes.",
+    "category": "research",
+    "url": "https://github.com/WenyuChiou/ai-research-skills",
+    "tags": [
+      "literature",
+      "academic",
+      "workflow"
+    ]
+  }
+]

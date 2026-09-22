@@ -1,0 +1,402 @@
+[
+  {
+    "id": "api-designer",
+    "name": "api-designer",
+    "description": "Designing new APIs, creating API specifications, or refactoring existing API architecture for scalability and developer experience.",
+    "category": "core-development",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/api-designer.md",
+    "model": "sonnet",
+    "tools": ["Read", "Write", "Edit", "Bash", "Glob", "Grep"],
+    "tags": ["rest", "graphql", "openapi"]
+  },
+  {
+    "id": "backend-developer",
+    "name": "backend-developer",
+    "description": "Building server-side APIs, microservices, and backend systems that require robust architecture, scalability planning, and production-ready implementation.",
+    "category": "core-development",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/backend-developer.md",
+    "model": "sonnet",
+    "tools": ["Read", "Write", "Edit", "Bash", "Glob", "Grep"],
+    "tags": ["server", "apis", "microservices"]
+  },
+  {
+    "id": "frontend-developer",
+    "name": "frontend-developer",
+    "description": "Building complete frontend applications across React, Vue, and Angular frameworks requiring multi-framework expertise and full-stack integration.",
+    "category": "core-development",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/frontend-developer.md",
+    "model": "sonnet",
+    "tools": ["Read", "Write", "Edit", "Bash", "Glob", "Grep"],
+    "tags": ["react", "vue", "angular", "ui"]
+  },
+  {
+    "id": "microservices-architect",
+    "name": "microservices-architect",
+    "description": "Designing distributed system architecture, decomposing monolithic applications into independent microservices, or establishing communication patterns between services at scale.",
+    "category": "core-development",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/microservices-architect.md",
+    "model": "inherit",
+    "tools": ["Read", "Write", "Edit", "Bash", "Glob", "Grep"],
+    "tags": ["distributed", "architecture", "scale"]
+  },
+  {
+    "id": "typescript-pro",
+    "name": "typescript-pro",
+    "description": "Implementing TypeScript requiring advanced type system patterns, complex generics, type-level programming, or end-to-end type safety across full-stack applications.",
+    "category": "languages",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/typescript-pro.md",
+    "model": "sonnet",
+    "tools": ["Read", "Write", "Edit", "Bash", "Glob", "Grep"],
+    "tags": ["typescript", "types", "generics"]
+  },
+  {
+    "id": "python-pro",
+    "name": "python-pro",
+    "description": "Building type-safe, production-ready Python for web APIs, system utilities, or complex applications requiring modern async patterns and extensive type coverage.",
+    "category": "languages",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/python-pro.md",
+    "model": "sonnet",
+    "tools": ["Read", "Write", "Edit", "Bash", "Glob", "Grep"],
+    "tags": ["python", "async", "typing"]
+  },
+  {
+    "id": "rust-engineer",
+    "name": "rust-engineer",
+    "description": "Building Rust systems where memory safety, ownership patterns, zero-cost abstractions and performance are critical for systems, embedded and async work.",
+    "category": "languages",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/rust-engineer.md",
+    "model": "sonnet",
+    "tools": ["Read", "Write", "Edit", "Bash", "Glob", "Grep"],
+    "tags": ["rust", "systems", "memory-safety"]
+  },
+  {
+    "id": "golang-pro",
+    "name": "golang-pro",
+    "description": "Building Go applications requiring concurrent programming, high-performance systems, microservices, or cloud-native architectures with idiomatic patterns.",
+    "category": "languages",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/golang-pro.md",
+    "model": "sonnet",
+    "tools": ["Read", "Write", "Edit", "Bash", "Glob", "Grep"],
+    "tags": ["go", "concurrency", "cloud-native"]
+  },
+  {
+    "id": "cloud-architect",
+    "name": "cloud-architect",
+    "description": "Designing, evaluating, or optimizing cloud infrastructure at scale — multi-cloud strategies, migrations, and disaster recovery planning.",
+    "category": "infrastructure",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/cloud-architect.md",
+    "model": "inherit",
+    "tools": ["Read", "Write", "Edit", "Bash", "Glob", "Grep"],
+    "tags": ["aws", "gcp", "azure", "migration"]
+  },
+  {
+    "id": "kubernetes-specialist",
+    "name": "kubernetes-specialist",
+    "description": "Designing, deploying, configuring, or troubleshooting Kubernetes clusters and workloads in production environments.",
+    "category": "infrastructure",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/kubernetes-specialist.md",
+    "model": "sonnet",
+    "tools": ["Read", "Write", "Edit", "Bash", "Glob", "Grep"],
+    "tags": ["kubernetes", "containers", "orchestration"]
+  },
+  {
+    "id": "devops-engineer",
+    "name": "devops-engineer",
+    "description": "Building or optimizing infrastructure automation, CI/CD pipelines, containerization strategies, and deployment workflows.",
+    "category": "infrastructure",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/devops-engineer.md",
+    "model": "sonnet",
+    "tools": ["Read", "Write", "Edit", "Bash", "Glob", "Grep"],
+    "tags": ["ci-cd", "automation", "deployment"]
+  },
+  {
+    "id": "terraform-engineer",
+    "name": "terraform-engineer",
+    "description": "Building, refactoring, or scaling infrastructure as code using Terraform, with focus on multi-cloud deployments, module architecture, and state management.",
+    "category": "infrastructure",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/terraform-engineer.md",
+    "model": "sonnet",
+    "tools": ["Read", "Write", "Edit", "Bash", "Glob", "Grep"],
+    "tags": ["terraform", "iac", "state"]
+  },
+  {
+    "id": "code-reviewer",
+    "name": "code-reviewer",
+    "description": "Conducting comprehensive code reviews focusing on code quality, security vulnerabilities, and best practices.",
+    "category": "quality-security",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/code-reviewer.md",
+    "model": "inherit",
+    "tools": ["Read", "Write", "Edit", "Bash", "Glob", "Grep"],
+    "tags": ["review", "quality", "best-practices"]
+  },
+  {
+    "id": "security-auditor",
+    "name": "security-auditor",
+    "description": "Conducting security audits, compliance assessments, or risk evaluations across systems, infrastructure and processes, with systematic vulnerability analysis.",
+    "category": "quality-security",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/security-auditor.md",
+    "model": "inherit",
+    "tools": ["Read", "Grep", "Glob"],
+    "tags": ["audit", "compliance", "vulnerabilities"]
+  },
+  {
+    "id": "qa-expert",
+    "name": "qa-expert",
+    "description": "Quality assurance strategy, test planning across the development cycle, and quality metrics analysis.",
+    "category": "quality-security",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/qa-expert.md",
+    "model": "sonnet",
+    "tools": ["Read", "Grep", "Glob", "Bash"],
+    "tags": ["qa", "testing", "metrics"]
+  },
+  {
+    "id": "penetration-tester",
+    "name": "penetration-tester",
+    "description": "Conducting authorized penetration tests to identify real vulnerabilities through active exploitation and validation.",
+    "category": "quality-security",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/penetration-tester.md",
+    "model": "inherit",
+    "tools": ["Read", "Grep", "Glob", "Bash"],
+    "tags": ["pentest", "offensive", "exploitation"]
+  },
+  {
+    "id": "ai-engineer",
+    "name": "ai-engineer",
+    "description": "Architecting, implementing, or optimizing end-to-end AI systems — from model selection and training pipelines to production deployment and monitoring.",
+    "category": "data-ai",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/ai-engineer.md",
+    "model": "inherit",
+    "tools": ["Read", "Write", "Edit", "Bash", "Glob", "Grep"],
+    "tags": ["ai", "training", "deployment"]
+  },
+  {
+    "id": "data-engineer",
+    "name": "data-engineer",
+    "description": "Designing, building, or optimizing data pipelines, ETL/ELT processes, and data infrastructure, including pipeline orchestration.",
+    "category": "data-ai",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/data-engineer.md",
+    "model": "sonnet",
+    "tools": ["Read", "Write", "Edit", "Bash", "Glob", "Grep"],
+    "tags": ["etl", "pipelines", "orchestration"]
+  },
+  {
+    "id": "llm-architect",
+    "name": "llm-architect",
+    "description": "Designing LLM systems for production, implementing fine-tuning or RAG architectures, optimizing inference serving, or managing multi-model deployments.",
+    "category": "data-ai",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/llm-architect.md",
+    "model": "inherit",
+    "tools": ["Read", "Write", "Edit", "Bash", "Glob", "Grep"],
+    "tags": ["llm", "rag", "fine-tuning", "inference"]
+  },
+  {
+    "id": "postgres-pro",
+    "name": "postgres-pro",
+    "description": "Optimizing PostgreSQL performance, designing high-availability replication, or troubleshooting database issues at scale.",
+    "category": "data-ai",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/postgres-pro.md",
+    "model": "sonnet",
+    "tools": ["Read", "Write", "Edit", "Bash", "Glob", "Grep"],
+    "tags": ["postgres", "sql", "replication"]
+  },
+  {
+    "id": "build-engineer",
+    "name": "build-engineer",
+    "description": "Optimizing build performance, reducing compilation times, or scaling build systems across growing teams.",
+    "category": "developer-experience",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/build-engineer.md",
+    "model": "haiku",
+    "tools": ["Read", "Write", "Edit", "Bash", "Glob", "Grep"],
+    "tags": ["build", "compilation", "performance"]
+  },
+  {
+    "id": "cli-developer",
+    "name": "cli-developer",
+    "description": "Building command-line tools and terminal applications requiring intuitive command design, cross-platform compatibility, and good developer experience.",
+    "category": "developer-experience",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/cli-developer.md",
+    "model": "sonnet",
+    "tools": ["Read", "Write", "Edit", "Bash", "Glob", "Grep"],
+    "tags": ["cli", "terminal", "tooling"]
+  },
+  {
+    "id": "documentation-engineer",
+    "name": "documentation-engineer",
+    "description": "Creating, architecting, or overhauling documentation systems including API docs, tutorials and guides that keep pace with code changes.",
+    "category": "developer-experience",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/documentation-engineer.md",
+    "model": "haiku",
+    "tools": ["Read", "Write", "Edit", "Glob", "Grep", "WebFetch", "WebSearch"],
+    "tags": ["docs", "tutorials", "api-docs"]
+  },
+  {
+    "id": "mcp-developer",
+    "name": "mcp-developer",
+    "description": "Building, debugging, or optimizing Model Context Protocol servers and clients that connect AI systems to external tools and data sources.",
+    "category": "developer-experience",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/mcp-developer.md",
+    "model": "sonnet",
+    "tools": ["Read", "Write", "Edit", "Bash", "Glob", "Grep"],
+    "tags": ["mcp", "servers", "integration"]
+  },
+  {
+    "id": "blockchain-developer",
+    "name": "blockchain-developer",
+    "description": "Building smart contracts, DApps and blockchain protocols requiring Solidity, gas optimization, security auditing, and Web3 integration.",
+    "category": "specialized-domains",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/blockchain-developer.md",
+    "model": "sonnet",
+    "tools": ["Read", "Write", "Edit", "Bash", "Glob", "Grep"],
+    "tags": ["solidity", "web3", "smart-contracts"]
+  },
+  {
+    "id": "game-developer",
+    "name": "game-developer",
+    "description": "Implementing game systems, optimizing graphics rendering, building multiplayer networking, or developing gameplay mechanics for specific platforms.",
+    "category": "specialized-domains",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/game-developer.md",
+    "model": "sonnet",
+    "tools": ["Read", "Write", "Edit", "Bash", "Glob", "Grep"],
+    "tags": ["games", "rendering", "multiplayer"]
+  },
+  {
+    "id": "payment-integration",
+    "name": "payment-integration",
+    "description": "Implementing payment systems, integrating gateways, or handling financial transactions requiring PCI compliance, fraud prevention, and secure processing.",
+    "category": "specialized-domains",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/payment-integration.md",
+    "model": "inherit",
+    "tools": ["Read", "Write", "Edit", "Bash", "Glob", "Grep"],
+    "tags": ["payments", "pci", "fraud"]
+  },
+  {
+    "id": "seo-specialist",
+    "name": "seo-specialist",
+    "description": "SEO optimization encompassing technical audits, keyword strategy, content optimization, and search ranking improvement.",
+    "category": "specialized-domains",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/seo-specialist.md",
+    "model": "haiku",
+    "tools": ["Read", "Grep", "Glob", "WebFetch", "WebSearch"],
+    "tags": ["seo", "keywords", "audit"]
+  },
+  {
+    "id": "product-manager",
+    "name": "product-manager",
+    "description": "Making product strategy decisions, prioritizing features, or defining roadmap plans based on user needs and business goals.",
+    "category": "business-product",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/product-manager.md",
+    "model": "haiku",
+    "tools": ["Read", "Write", "Edit", "Glob", "Grep", "WebFetch", "WebSearch"],
+    "tags": ["strategy", "roadmap", "prioritization"]
+  },
+  {
+    "id": "business-analyst",
+    "name": "business-analyst",
+    "description": "Analyzing business processes, gathering requirements from stakeholders, or identifying process improvements that drive operational efficiency.",
+    "category": "business-product",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/business-analyst.md",
+    "model": "sonnet",
+    "tools": ["Read", "Write", "Edit", "Glob", "Grep", "WebFetch", "WebSearch"],
+    "tags": ["requirements", "process", "stakeholders"]
+  },
+  {
+    "id": "technical-writer",
+    "name": "technical-writer",
+    "description": "Creating, improving, or maintaining technical documentation including API references, user guides, SDK docs, and getting-started guides.",
+    "category": "business-product",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/technical-writer.md",
+    "model": "haiku",
+    "tools": ["Read", "Write", "Edit", "Glob", "Grep", "WebFetch", "WebSearch"],
+    "tags": ["writing", "guides", "sdk-docs"]
+  },
+  {
+    "id": "ux-researcher",
+    "name": "ux-researcher",
+    "description": "Conducting user research, analyzing user behavior, or generating insights to validate design decisions and uncover user needs.",
+    "category": "business-product",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/ux-researcher.md",
+    "model": "sonnet",
+    "tools": ["Read", "Grep", "Glob", "WebFetch", "WebSearch"],
+    "tags": ["research", "usability", "insights"]
+  },
+  {
+    "id": "agent-organizer",
+    "name": "agent-organizer",
+    "description": "Breaking a complex task into subtasks, matching each to the capabilities of available subagents, and writing a concrete team and workflow plan.",
+    "category": "meta-orchestration",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/agent-organizer.md",
+    "model": "sonnet",
+    "tools": ["Read", "Write", "Edit", "Glob", "Grep"],
+    "tags": ["planning", "delegation", "multi-agent"]
+  },
+  {
+    "id": "context-manager",
+    "name": "context-manager",
+    "description": "Organizing the shared context and state a multi-agent workflow keeps in files — directory structure, naming, and how agents read and update it.",
+    "category": "meta-orchestration",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/context-manager.md",
+    "model": "sonnet",
+    "tools": ["Read", "Write", "Edit", "Glob", "Grep"],
+    "tags": ["context", "state", "conventions"]
+  },
+  {
+    "id": "multi-agent-coordinator",
+    "name": "multi-agent-coordinator",
+    "description": "Planning how concurrent subagents should communicate, sequence their work, share state through files, and handle failures.",
+    "category": "meta-orchestration",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/multi-agent-coordinator.md",
+    "model": "inherit",
+    "tools": ["Read", "Write", "Edit", "Glob", "Grep"],
+    "tags": ["coordination", "concurrency", "failure"]
+  },
+  {
+    "id": "workflow-orchestrator",
+    "name": "workflow-orchestrator",
+    "description": "Designing workflow and state-machine definitions — states, transitions, error handling, and rollback logic — as specs other agents can run.",
+    "category": "meta-orchestration",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/workflow-orchestrator.md",
+    "model": "inherit",
+    "tools": ["Read", "Write", "Edit", "Glob", "Grep"],
+    "tags": ["workflow", "state-machine", "rollback"]
+  },
+  {
+    "id": "research-analyst",
+    "name": "research-analyst",
+    "description": "Comprehensive research across multiple sources, synthesizing findings into actionable insights, trend identification, and detailed reporting.",
+    "category": "research-analysis",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/research-analyst.md",
+    "model": "sonnet",
+    "tools": ["Read", "Grep", "Glob", "WebFetch", "WebSearch"],
+    "tags": ["research", "synthesis", "reporting"]
+  },
+  {
+    "id": "search-specialist",
+    "name": "search-specialist",
+    "description": "Finding specific information across multiple sources using advanced search strategies, query optimization, and targeted retrieval.",
+    "category": "research-analysis",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/search-specialist.md",
+    "model": "sonnet",
+    "tools": ["Read", "Grep", "Glob", "WebFetch", "WebSearch"],
+    "tags": ["search", "retrieval", "queries"]
+  },
+  {
+    "id": "competitive-analyst",
+    "name": "competitive-analyst",
+    "description": "Analyzing direct and indirect competitors, benchmarking against market leaders, and developing strategies to strengthen competitive positioning.",
+    "category": "research-analysis",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/competitive-analyst.md",
+    "model": "sonnet",
+    "tools": ["Read", "Grep", "Glob", "WebFetch", "WebSearch"],
+    "tags": ["competitors", "benchmarking", "positioning"]
+  },
+  {
+    "id": "data-researcher",
+    "name": "data-researcher",
+    "description": "Discovering, collecting and validating data from multiple sources to fuel analysis — identifying sources and gathering raw datasets.",
+    "category": "research-analysis",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/data-researcher.md",
+    "model": "sonnet",
+    "tools": ["Read", "Grep", "Glob", "WebFetch", "WebSearch"],
+    "tags": ["datasets", "validation", "sources"]
+  }
+]
