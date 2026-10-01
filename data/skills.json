@@ -15,7 +15,7 @@
     "id": "pdf",
     "name": "pdf",
     "description": "PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging and splitting documents, and handling forms.",
-    "category": "nope",
+    "category": "documents",
     "url": "https://github.com/anthropics/skills/blob/main/skills/pdf/SKILL.md",
     "tags": [
       "forms",
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "id": "pptx",
+    "id": "xlsx",
     "name": "xlsx",
     "description": "Create, edit, and analyze Excel spreadsheets with support for formulas, formatting, data analysis, and visualization.",
     "category": "data",

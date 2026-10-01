@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Claude Code Skills & Subagents Directory
 
-## Getting Started
+A browsable directory of publicly available **Agent Skills** and **subagents** for
+[Claude Code](https://claude.com/claude-code). Search, filter by category, and click any card to open its
+source on GitHub.
 
-First, run the development server:
+![Skills catalog](docs/screenshots/skills.png)
+
+## Features
+
+- **Two catalogs**: 40 Agent Skills and 40 subagents, each with its own categories, on two tabs
+- **Search** across name, description and tags, filtering as you type
+- **Category filter** that combines with search, plus sorting by name or category
+- **Every card links to its source**, so you can review a skill or subagent before installing it
+- **Subagent cards** show the model (`sonnet`, `haiku`, `inherit`…) and the tools the agent may use
+- **Light and dark mode**, following your system setting
+- **Responsive layout**: 1, 2 or 3 columns depending on screen width
+- **Static site**: no backend and no API calls; the data lives in two JSON files
+
+| Search and filter | Subagents |
+|---|---|
+| ![Search and filter](docs/screenshots/search-and-filter.png) | ![Subagents catalog](docs/screenshots/subagents.png) |
+
+| Dark mode | Mobile |
+|---|---|
+| ![Dark mode](docs/screenshots/dark-mode.png) | <img src="docs/screenshots/mobile.png" alt="Mobile layout" width="300"> |
+
+## What are skills and subagents?
+
+- **Agent Skill**: a folder with a `SKILL.md` file (Markdown with YAML frontmatter) that gives Claude Code
+  expertise in a specific area when it's needed. Installed in `~/.claude/skills/` (personal) or `.claude/skills/` (project).
+- **Subagent**: a `.md` file with a system prompt that runs in **its own context window**, as a specialist
+  Claude Code can hand work to. Installed in `~/.claude/agents/` (personal) or `.claude/agents/` (project).
+
+Both are instructions an AI agent will follow, so **review one before installing it**.
+
+## Getting started
+
+Requires Node.js 20+.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev          # http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Other commands:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| Command | What it does |
+|---|---|
+| `npm run build` | Builds the static site into `out/` |
+| `npx serve out` | Serves the built site locally |
+| `npm run check` | Tests the search/filter logic against both catalogs |
+| `npm run lint` | Runs ESLint |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Adding an entry
 
-## Learn More
+Add one object to `data/skills.json` or `data/subagents.json`:
 
-To learn more about Next.js, take a look at the following resources:
+```json
+{
+  "id": "pdf",
+  "name": "pdf",
+  "description": "PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging and splitting documents, and handling forms.",
+  "category": "documents",
+  "url": "https://github.com/anthropics/skills/blob/main/skills/pdf/SKILL.md",
+  "tags": ["forms", "extraction", "official"]
+}
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Subagents can also have `"model"` and `"tools"`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The data is validated at build time, so a bad entry fails `npm run build` with a message pointing at it:
 
-## Deploy on Vercel
+- `id`: lowercase letters, digits and hyphens, unique in its file
+- `category`: one of the categories defined in `lib/skills.ts` or `lib/subagents.ts`
+- `url`: must start with `https://`
+- `name` and `description`: not empty
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Tech stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Next.js 16 (App Router, static export) · React 19 · TypeScript · Tailwind CSS v4
+
+```
+app/            routes: / (skills) and /subagents
+components/     shared catalog page, search/filter bar and cards
+lib/            data loading, validation and filtering
+data/           skills.json and subagents.json
+docs/           README screenshots
+SPEC.md         product spec
+```
+
+## Sources
+
+- [anthropics/skills](https://github.com/anthropics/skills): official skills
+- [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills)
+- [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)
+- [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents)
