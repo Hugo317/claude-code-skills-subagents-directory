@@ -484,5 +484,19 @@
       "academic",
       "workflow"
     ]
+  },
+  {
+    "id": "agent-qa-authoring",
+    "name": "agent-qa-authoring",
+    "description": "Author Agent QA YAML tests, suites, and hooks through MCP: discover workspace context, generate IDs, validate definitions, and enqueue runs.",
+    "category": "testing",
+    "url": "https://github.com/vostride/agent-qa/blob/main/skills/agent-qa-authoring/SKILL.md",
+    "tags": [
+      "mcp",
+      "yaml",
+      "web",
+      "mobile",
+      "regression"
+    ]
   }
 ]

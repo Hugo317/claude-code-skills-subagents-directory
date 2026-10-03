@@ -8,7 +8,7 @@ source on GitHub.
 
 ## Features
 
-- **Two catalogs**: 40 Agent Skills and 40 subagents, each with its own categories, on two tabs
+- **Two catalogs**: 41 Agent Skills and 40 subagents, each with its own categories, on two tabs
 - **Search** across name, description and tags, filtering as you type
 - **Category filter** that combines with search, plus sorting by name or category
 - **Every card links to its source**, so you can review a skill or subagent before installing it
